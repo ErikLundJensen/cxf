@@ -85,7 +85,12 @@
             </plugin>
         </plugins>
     </build>
-    <dependencies>
+    	<dependencies>
+    		<dependency>
+			<groupId>org.apache.cxf</groupId>
+			<artifactId>cxf-rt-ws-security</artifactId>
+			<version>${project.version}</version>
+		</dependency>
         <dependency>
             <groupId>org.apache.geronimo.javamail</groupId>
             <artifactId>geronimo-javamail_1.4_mail</artifactId>
